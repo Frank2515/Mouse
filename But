@@ -1,0 +1,14 @@
+import pyautogui
+import time
+
+# Delay before starting the auto-clicking
+time.sleep(5)
+
+# Number of clicks to perform
+num_clicks = 100
+
+# Loop to perform the clicks
+for _ in range(num_clicks):
+    pyautogui.click()  # Perform a left mouse button click
+    # Add a small delay between clicks (optional)
+    time.sleep(0.1)
